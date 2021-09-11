@@ -1,0 +1,63 @@
+.cabecalhoPrincipal .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+
+.cabecalhoPrincipal-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores-list{
+    display: flex;
+
+    align-items: center;
+    /* Aqui os elementos ficam alinhados na forma vertical. center */
+
+    justify-content: space-around;
+    width: 70%;
+    margin-right: 5%;
+}
+
+.rodapePrincipal-contatoForm{
+    width: 25%;
+}
+
+.rodapePrincipal-contatoForm-fieldset{
+    display: flex; 
+/*  Aqui os elementos ficam um do lado do outro  */
+}
+
+.rodapePrincipal-navMap-list{
+    display: flex;
+
+    /* 
+    flex-direction: column;
+    flex-wrap: wrap; 
+    Pode ser substituido por -> flw-flow: colum wrap; (ATALHO)
+    */
+    flex-flow: column wrap;
+    /* Aqui os elementos ficam um do lado do outro e 
+    e quebram a linha quando chega o limite da tela*/
+
+    height: 250px;
+}
+
+.conteudoPrincipal-cursos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.conteudoPrincipal-cursos-link {
+    width: 23%;
+    margin-bottom: 1%;
+    /* Margem nos bostão para dar espaçamento */
+}
+
